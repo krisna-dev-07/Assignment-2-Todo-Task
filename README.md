@@ -1,8 +1,45 @@
-# React + Vite
+# React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple To-Do List application built with Vite, React, and Tailwind CSS. This app allows users to add, remove, and mark tasks as completed. Additionally, it offers sorting options and persistence via `localStorage`.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new tasks
+- Remove existing tasks
+- Mark tasks as completed/incomplete
+- Sort tasks alphabetically or by insertion order
+- Filter tasks to show all, completed, or incomplete tasks
+- Tasks are saved in `localStorage` for persistence
+
+## Installation
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/download/) (LTS version recommended)
+- [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
+- [Git](https://git-scm.com/downloads)
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/<username>/<repository-name>.git
+
+1. Navigate to the file:
+
+   ```bash
+   cd <repository-name>
+   
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+
+1. Run the app:
+
+   ```bash
+  npm run dev
