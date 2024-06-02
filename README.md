@@ -42,4 +42,4 @@ Ensure you have the following installed:
 1. Run the app:
 
    ```bash
-  npm run dev
+     npm run dev
